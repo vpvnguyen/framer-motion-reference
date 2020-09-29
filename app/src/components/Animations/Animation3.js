@@ -9,7 +9,7 @@ const Animation3 = () => (
       transition={{
         type: "spring",
         stiffness: 260,
-        damping: 2,
+        damping: 300,
       }}
     >
       Animation 3

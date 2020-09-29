@@ -8,8 +8,9 @@ const Animation2 = () => (
       animate={{ rotate: 0, scale: 1 }}
       transition={{
         type: "spring",
-        stiffness: 2600000,
-        damping: 2,
+        stiffness: 260,
+        damping: 200,
+        duration: 1,
       }}
     >
       Animation 2
