@@ -6,6 +6,7 @@ import Animation4 from "./components/Animations/Animation4";
 import IndividualLetters from "./components/Animations/IndividualLetters";
 import SingleLetter from "./components/Animations/SingleLetter";
 import AnimateUp from "./components/Animations/AnimateUp";
+import WhileHoverWhileTap from "./components/Animations/WhileHoverWhileTap";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <IndividualLetters />
       <SingleLetter />
       <AnimateUp />
+      <WhileHoverWhileTap />
     </>
   );
 }
