@@ -53,6 +53,28 @@ const SingleLetter = () => {
           Single Letter
         </motion.div>
       </motion.div>
+
+      <motion.div
+        style={{
+          fontFamily: "Montserrat, Work Sans, sans-serif",
+          fontWeight: "bold",
+          fontSize: 26,
+          border: "1px solid black",
+        }}
+        variants={containerVariants}
+        initial={"before"}
+        animate={"after"}
+      >
+        <motion.div
+          width={"auto"} // Set the width to the width of the letter
+          height={26} // Set the height to the height of the text
+          background={""}
+          style={{ position: "relative" }} // Position elements
+          variants={letterVariants}
+        >
+          Word
+        </motion.div>
+      </motion.div>
     </>
   );
 };
