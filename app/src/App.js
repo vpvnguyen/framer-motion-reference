@@ -5,6 +5,7 @@ import Animation3 from "./components/Animations/Animation3";
 import Animation4 from "./components/Animations/Animation4";
 import IndividualLetters from "./components/Animations/IndividualLetters";
 import SingleLetter from "./components/Animations/SingleLetter";
+import AnimateUp from "./components/Animations/AnimateUp";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Animation4 />
       <IndividualLetters />
       <SingleLetter />
+      <AnimateUp />
     </>
   );
 }
